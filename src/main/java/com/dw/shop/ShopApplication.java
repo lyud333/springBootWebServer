@@ -39,8 +39,8 @@ public class ShopApplication {
 		test.hello();
 
 
-		var test1 = new Friend("kim");
-		System.out.println(test.name);
+		var test1 = new Friend("lee");
+		System.out.println(test1.name);
 
 	}
 
@@ -58,7 +58,8 @@ class Test {
 class Friend {
 	String name = "kim";
 	int age = 20;
-	Friend(String 구멍){
+	//constructor
+	Friend(String 구멍/*여러개 가능*/){
 		this.name = 구멍;
 	}
 }
